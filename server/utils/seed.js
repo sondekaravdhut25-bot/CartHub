@@ -100,7 +100,9 @@ const importData = async () => {
     await Product.deleteMany();
     await User.deleteMany({ email: "admin@kilnandco.test" });
 
-    await Product.insertMany(products);
+    for (const product of products) {
+      await Product.create(product);
+    }
 
     await User.create({
       name: "Store Admin",
