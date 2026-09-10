@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="border-t border-border mt-24">
       <div className="max-w-6xl mx-auto px-5 sm:px-8 py-12 grid grid-cols-1 sm:grid-cols-3 gap-8">
         <div>
-          <p className="font-display text-lg text-ink mb-2">Kiln &amp; Co</p>
+          <p className="font-display text-lg text-ink mb-2">CartHub</p>
           <p className="text-sm text-ink/60 max-w-xs">
             Wheel-thrown stoneware, made in small batches. Every piece carries the marks of the hand that shaped it.
           </p>

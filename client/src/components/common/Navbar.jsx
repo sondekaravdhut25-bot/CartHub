@@ -21,7 +21,7 @@ export default function Navbar() {
     <header className="border-b border-border bg-base/95 backdrop-blur sticky top-0 z-40">
       <div className="max-w-6xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
         <Link to="/" className="font-display text-xl text-ink">
-          Kiln <span className="text-clay">&amp;</span> Co
+          CartHub
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
