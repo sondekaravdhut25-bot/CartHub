@@ -72,18 +72,4 @@ Razorpay test mode uses fake cards — no real money moves:
 - Expiry: any future date
 - CVV: any 3 digits
 
-## Deployment
 
-- **Frontend:** deploy `client/` to [Vercel](https://vercel.com) (framework preset: Vite)
-- **Backend:** deploy `server/` to [Render](https://render.com) (free web service)
-- **Database:** MongoDB Atlas free tier (M0)
-- Set the same environment variables from `.env` in your Render dashboard,
-  and update `CLIENT_URL` to your deployed Vercel URL
-- Update the frontend's API base URL / proxy for production (see `client/src/services/api.js`)
-
-## Possible next additions
-
-If you want to extend this further for your portfolio: Cloudinary image
-uploads (instead of pasting image URLs in the admin form), email
-notifications on order status change (Nodemailer), wishlist/favorites,
-and product image galleries with multiple photos per item.
